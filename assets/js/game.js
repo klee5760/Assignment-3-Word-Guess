@@ -102,7 +102,7 @@ else if (numGuesses === 0) {
 }
 }
 startGame();
-
+music.play();
 document.onkeyup = function(event){
 
   if(event.keyCode >= 65 && event.keyCode <= 90){
