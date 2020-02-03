@@ -7,18 +7,36 @@
   </head>
 
   <body>
-    <h1>Wheel of Fortune Bonus Round</h1>
-    <h2>Guess the word!</h2>
+    <p>Wheel of Fortune Bonus Round</p>
+    <p>Guess the word!</p>
 
-    <div class="container">
-      <div id="header">
-        <p>You have <span id="guessesLeft"></span> guesses left</p>
-        <p>You've guessed: <span id="lettersGuessed"></span></p>
-      </div>
+    <div id="container">
+      <h2 id= "wheeloffortune"></h2>
 
-      <div id="underscores">----- ------</div>
-      <div>Wins: <span id="wins"></span></div>
-      <div>Losses: <span id="losses"></span></div>
+        <div id="titlemusic"></div>
+
+        <div id = "bonus-section"></div>
+
+        <h3 class = "puzzletonight">Tonight's Puzzle</h3>
+
+        <div id = "currentpuzzle">------</div>
+      
+    </div>
+    
+    <div id="letterguessedsection">
+      <h3 class = "puzzletonight">Letter Already Guessed</h3>
+
+      <div id = "letterguessed"></div>
+
+    </div>
+
+    <div id = "winorlosssection">
+      <strong>Guesses Left:</strong> <span id= "guesses-left">10</span>
+      <br>
+      <strong>Win:</strong> <span id= "win">0</span>
+      <br>
+      <strong>Lose:</strong> <span id= "lose">0</span>
+      <br>
     </div>
 
     <script src="./assets/js/words.js"></script>
